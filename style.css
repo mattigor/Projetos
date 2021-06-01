@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* Formatação do Cabeçalho Geral */
+
+h1 {
+  font-family: Arial;
+  font-size: 20pt;
+  color: darkgreen;
+  text-shadow: 1px 1px 1px grey;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/* Formatação do Parágrafo Geral */
+
+p {
+  font-family: Arial;
+  font-size: 12pt;
+  color: black;
+  text-shadow: 1px 1px 1px grey;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/* Cor do Fundo */
+
+body {
+  background-color: lightgreen;
+  color: rgba(0,0,0,1);
+}
+
+/* Cor da Página */
+
+div#interface {
+  width: 900px;
+  background-color: #FFFFFF;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 10px;
+}
+
+/* Formatação do Shrekzinho */
+
+header#cabecalho img#icone {
+  position: absolute;
+  left: 900px;
+  top: 50px;
+  width: 250px;
+}
+
+/* Formatação da linha que separa o Cabeçalho do resto */
+
+header#cabecalho {
+  border-bottom: 2px lightgreen outset;
+  height: 150px;
+}
+
+/* Formatação de tudo o que tá antes da Linha */
+
+header#cabecalho h1 {
+  font-family: Arial;
+  font-size: 30px;
+  color: green;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+  text-align: justify;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+header#cabecalho h2 {
+  font-family: Arial;
+  font-size: 20px;
+  color: grey;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+  text-align: justify;
+  text-indent: 30px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+/* Formatação do Menu (na parte superior da página) */
+
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
+  left: 400px;
+}
+
+/* Formato do Bloco do Menu e Efeito de transição de cor */
+
+nav#menu li {
+  display: inline-block;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 2px;
+  -webkit-transition: background-color .8s;
+  -moz-transition: background-color .8s;
+  -o-transition: background-color .8s;
+  -ms-transition: background-color .8s;
+  transition: background-color .8s;
+}
+
+/* Quadrado verde escuro do Menu */
+
+nav#menu li:hover {
+  background-color: darkgreen;
+}
+
+nav#menu h1 {
+  display: none;
+}
+
+/* Cor da letra do menu antes de apontar */
+
+nav#menu a {
+  color: #FFFFFF;
+}
+
+/* Cor da letra do menu depois de apontar */
+
+nav#menu a:hover {
+  color: lightgreen;
+}
